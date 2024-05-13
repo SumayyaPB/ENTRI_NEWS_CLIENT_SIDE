@@ -1,0 +1,19 @@
+.customInput {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 90%;
+    margin: 0 auto;
+}
+label {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(58,58,58);
+}
+input:-webkit-autofill{
+    -webkit-box-shadow:0 0 0 1000px white inset
+}
