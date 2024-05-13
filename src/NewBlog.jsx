@@ -67,7 +67,7 @@ const NewBlog = () => {
                    <CustomInput type='text' label='Description' name='desc' id='desc'  onChange={(e)=>setDesc(e.target.value)} required/>
                 </div>
 
-               <button type='Submit'>Create a new post</button>
+               <button type='Submit' onClick={()=> navigate('/blog')}>Create a new post</button>
 
         </form>
 
